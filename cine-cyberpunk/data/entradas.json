@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "fecha_entrada": "2025-07-25",
+    "sala": "1",
+    "monto": 25
+  }
+]

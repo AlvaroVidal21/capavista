@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "dni": "12345678",
+    "contraseña": "sher2025",
+    "nombres": "Sherlock",
+    "apellidos": "Holmes",
+    "correo": "sherlock@bakerstreet.com",
+    "puntos": 50,
+    "fecha_registro": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "dni": "87654321",
+    "contraseña": "herc2025",
+    "nombres": "Hercule",
+    "apellidos": "Poirot",
+    "correo": "poirot@belgianbrains.com",
+    "puntos": 20,
+    "fecha_registro": "2025-07-22"
+  }
+]

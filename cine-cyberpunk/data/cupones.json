@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "codigo": "A1B2C3",
+    "estado": "pendiente",
+    "fecha_emision": "2025-07-20",
+    "fecha_canje": null
+  },
+  {
+    "id": 2,
+    "cliente_id": 2,
+    "codigo": "D4E5F6",
+    "estado": "canjeado",
+    "fecha_emision": "2025-07-18",
+    "fecha_canje": "2025-07-19"
+  }
+]
