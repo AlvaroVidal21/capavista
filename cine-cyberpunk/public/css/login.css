@@ -1,0 +1,27 @@
+body{
+    background-color: #0a0a0a;
+    color: #d0ff00;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+}
+
+form {
+    border: 1px solid #3aff7b;
+    box-shadow: 0 0 1.5rem #3aff7b60;
+    transition: all 0.3s ease;
+}
+
+input.form-control:focus {
+    background-color: black;
+    color: #00ff00;
+    border-color: #00ff00;
+    box-shadow: 0 0 1rem #00ff00;
+    outline: none;
+}
+
+button.btn:hover {
+    background-color: #ff008020;
+    color: #fff;
+    border-color: #ff0080;
+    box-shadow: 0 0 0.5rem #ff0080;
+}
