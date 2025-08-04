@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIENTE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/cliente.css">
+</head>
+<body>
+
+<body class="body-cliente">
+
+  <div class="cliente-container">
+    <!-- Encabezado -->
+    <h1 class="cliente-titulo">
+      Bienvenido, <span id="nombreCliente"></span>
+    </h1>
+    <p>Puntos acumulados: <span id="puntosCliente"></span></p>
+
+    <!-- Botón para canjear cupón -->
+    <button id="btnCanjear" class="btn-cyberpunk">
+      Canjear cupón
+    </button>
+
+    <!-- Sección para mostrar cupones -->
+    <div id="cuponInfo" class="cupon-card"></div>
+
+    <!-- Sección de compra de entradas -->
+    <div class="compra-container">
+      <h2 class="compra-titulo">Comprar Entrada</h2>
+      <select id="peliculaSelect" class="form-select my-3">
+        <!-- Opciones cargadas dinámicamente -->
+      </select>
+      <p>Precio: <span id="precioPelicula"></span> soles</p>
+      <button id="btnComprar" class="btn-cyberpunk">Comprar</button>
+      <div id="compraResultado" class="mt-3"></div>
+    </div>
+
+
+  </div>
+
+
+    <script src="/js/cliente.js"></script>
+</body>
+</html>

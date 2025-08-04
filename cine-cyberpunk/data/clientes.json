@@ -18,5 +18,18 @@
     "correo": "poirot@belgianbrains.com",
     "puntos": 20,
     "fecha_registro": "2025-07-22"
+  },
+
+  {
+    "id": 3,
+    "dni": "72783165",
+    "contraseña": "123456",
+    "nombres": "Alvaro",
+    "apellidos": "Vidal",
+    "correo": "avidal@idat.pe.com",
+    "puntos": 20,
+    "fecha_registro": "2025-08-04"
   }
+
+
 ]

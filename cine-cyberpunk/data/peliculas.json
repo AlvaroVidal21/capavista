@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "Blade Runner 2049",
+    "precio": 25,
+    "descripcion": "Un viaje cyberpunk al futuro distópico."
+  },
+  {
+    "id": 2,
+    "titulo": "Matrix Reloaded",
+    "precio": 22,
+    "descripcion": "La lucha de Neo contra el sistema."
+  },
+  {
+    "id": 3,
+    "titulo": "Ghost in the Shell",
+    "precio": 20,
+    "descripcion": "La clásica obra cyberpunk de la inteligencia artificial."
+  }
+]

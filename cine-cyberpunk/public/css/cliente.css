@@ -1,0 +1,62 @@
+/* ======== ESTILO GENERAL DE LA PÁGINA ======== */
+.body-cliente {
+  background-color: #0a0a0a; /* fondo oscuro profundo */
+  color: #d0ff00;           /* texto verde ácido */
+  font-family: 'Courier New', monospace; /* estilo terminal hacker */
+  letter-spacing: 0.5px;    /* espacio leve entre letras */
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.cliente-container {
+  max-width: 600px;
+  margin: 50px auto;        /* centrado horizontal y separación arriba */
+  padding: 20px;
+  border: 1px solid #3aff7b; /* borde verde fluorescente */
+  box-shadow: 0 0 15px #3aff7b60; /* efecto glow alrededor */
+  border-radius: 8px;
+}
+
+/* ======== TÍTULO ======== */
+.cliente-titulo {
+  color: #00ffc6;
+  text-shadow: 0 0 10px #00ffc6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ======== BOTÓN CYBERPUNK ======== */
+.btn-cyberpunk {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #ff0080;
+  color: #ff0080;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-cyberpunk:hover:enabled {
+  background-color: #ff008020;
+  color: #fff;
+  box-shadow: 0 0 10px #ff0080;
+}
+
+/* Botón deshabilitado */
+.btn-cyberpunk:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ======== TARJETA DE CUPÓN ======== */
+.cupon-card {
+  margin-top: 15px;
+  padding: 10px;
+  border: 1px solid #0ff;
+  color: #0ff;
+  box-shadow: 0 0 10px #0ff60;
+  border-radius: 5px;
+  background-color: #111;
+}

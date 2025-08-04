@@ -4,12 +4,9 @@ const router = express.Router();
 const path = require('path');
 const fs = require('fs');
 
-// 1) GET /login → devuelve el formulario
-router.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, '../public/views/login.html'));
-});
 
-// 2) POST /login → procesa credenciales
+
+//  POST /login → procesa credenciales
 router.post('/', (req, res) => {
   const { dni, contraseña } = req.body;
   const ruta = path.join(__dirname, '../data/clientes.json');

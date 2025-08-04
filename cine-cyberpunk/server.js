@@ -6,6 +6,25 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
+// ----------------------------
+// Las películas
+// ----------------------------
+app.get('/peliculas', (req, res) => {
+    res.sendFile(path.join(__dirname, 'data', 'peliculas.json'));
+})
+
+// ----------------------------
+// Rutas para vistas
+// ----------------------------
+app.get('/ingresar', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'login.html'));
+})
+
+app.get('/cliente', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'cliente.html'));
+})
+
+
 // --------------------------------------------
 // Importamos el  router de login
 const loginRouter = require('./routes/login');
