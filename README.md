@@ -42,7 +42,7 @@ Su objetivo es simular la gestión de clientes, puntos y cupones de un cine, per
 ┃ ┗ login.js
 ┣ server.js
 ┗ package.json
-
+```
 
 
 ## 💻 Tecnologías Utilizadas
