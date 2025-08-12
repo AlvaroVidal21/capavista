@@ -22,6 +22,9 @@ Su objetivo es simular la gestión de clientes, puntos y cupones de un cine, per
 - Filtro de búsqueda por DNI, nombre, código o estado.
 
 ## 📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto
+
+```plaintext
 📦 CINE-CYBERPUNK
 ┣ 📂 data
 ┃ ┣ clientes.json
@@ -33,12 +36,13 @@ Su objetivo es simular la gestión de clientes, puntos y cupones de un cine, per
 ┃ ┣ 📂 js
 ┃ ┃ ┗ login.js
 ┃ ┗ 📂 views
-┃ ┣ cliente.html
-┃ ┗ login.html
+┃   ┣ cliente.html
+┃   ┗ login.html
 ┣ 📂 routes
 ┃ ┗ login.js
 ┣ server.js
 ┗ package.json
+
 
 
 ## 💻 Tecnologías Utilizadas
