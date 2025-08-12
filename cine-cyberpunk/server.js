@@ -25,6 +25,23 @@ app.get('/cliente', (req, res) => {
 })
 
 
+app.get('/admin', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'admin.html'));
+})
+
+// ----------------------------
+// Obtener: Clientes y Cupones
+// ----------------------------
+app.get('/data/clientes', (req, res) => {
+    res.sendFile(path.join(__dirname, 'data', 'clientes.json'));
+});
+
+app.get('/data/cupones', (req, res) => {
+    res.sendFile(path.join(__dirname, 'data', 'cupones.json'));
+});
+
+
+
 // --------------------------------------------
 // Importamos el  router de login
 const loginRouter = require('./routes/login');

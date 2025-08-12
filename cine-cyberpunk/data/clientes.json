@@ -9,19 +9,9 @@
     "puntos": 50,
     "fecha_registro": "2025-07-20"
   },
-  {
-    "id": 2,
-    "dni": "87654321",
-    "contraseña": "herc2025",
-    "nombres": "Hercule",
-    "apellidos": "Poirot",
-    "correo": "poirot@belgianbrains.com",
-    "puntos": 20,
-    "fecha_registro": "2025-07-22"
-  },
 
   {
-    "id": 3,
+    "id": 2,
     "dni": "72783165",
     "contraseña": "123456",
     "nombres": "Alvaro",

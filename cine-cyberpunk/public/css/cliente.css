@@ -56,7 +56,19 @@
   padding: 10px;
   border: 1px solid #0ff;
   color: #0ff;
-  box-shadow: 0 0 10px #0ff60;
+  box-shadow: 0 0 10px #0ff6;
   border-radius: 5px;
   background-color: #111;
+}
+
+/* ======== INPUT CUPÓN ======== */
+#cuponInput {
+  background-color: #222;
+  color: #0ff;
+  border: 1px solid #0ff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 0 5px #0ff6;
+  margin-bottom: 1.5rem;
 }
